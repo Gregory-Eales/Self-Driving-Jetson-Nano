@@ -4,12 +4,13 @@ This project aims at using the jetson nano development board for small scale sel
 
 ## Introduction
 
-<p align="center">
+### Jetson Nano Development Board
+<p align="left">
   <img src="https://github.com/Gregory-Eales/Self-Driving-Jetson-Nano/blob/master/images/JetsonNano.jpg" width="250"/>
 </p>
 
-
-<p align="center">
+### Tank Chasis
+<p align="left">
   <img src="https://github.com/Gregory-Eales/Self-Driving-Jetson-Nano/blob/master/images/TankChassis.jpg" width="250"/>
 </p>
 
