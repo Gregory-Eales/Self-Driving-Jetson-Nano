@@ -4,7 +4,7 @@ import motor
 import joystick
 import jetson_ai
 
-
+# controller for the jetson self driving rig
 class JetsonController(object):
 
 	# initialize
@@ -29,3 +29,4 @@ class JetsonController(object):
 	# saves data pair
 	def save_data(self, image, input):
 		pass
+
