@@ -1,3 +1,4 @@
+# dependencies import 
 import camera
 import motor
 import joystick
@@ -13,4 +14,3 @@ class JetsonController(object):
 		self.inferface = interface.InterfaceController()
 		self.motor = motor.MotorController()
 		self.joystick = joystick.JoystickController()
-		
