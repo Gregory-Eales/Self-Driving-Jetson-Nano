@@ -19,6 +19,9 @@ This project aims at using the jetson nano development board for small scale sel
 ## Project Structure
 
 ### Hardware Setup
+<p align="left">
+  <img src="https://github.com/Gregory-Eales/Self-Driving-Jetson-Nano/blob/master/images/JetsonNanoRig.png" width="250"/>
+</p>
 
 ### Software Architecture
 
