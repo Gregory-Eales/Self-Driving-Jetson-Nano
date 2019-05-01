@@ -7,6 +7,7 @@ import jetson_ai
 
 class JetsonController(object):
 
+	# initialize
 	def __init__(self):
 
 		# initialize controlls
@@ -14,3 +15,17 @@ class JetsonController(object):
 		self.inferface = interface.InterfaceController()
 		self.motor = motor.MotorController()
 		self.joystick = joystick.JoystickController()
+		self.ai = jetson_ai.JetsonAI()
+		self.ultrasonic = ultrasonic.UltrasonicController()
+
+	# run autonomous self driving
+	def autonomous_main(self):
+		pass
+
+	# run main data collection loop
+	def data_collection_main(self):
+		pass
+
+	# saves data pair
+	def save_data(self, image, input):
+		pass
