@@ -8,7 +8,7 @@ class CameraController(self):
 	def __init__(self):
 		self.camera = VideoCapture(0)
 
-	def get_image(self):
+	def capture_image(self):
 
 		# capture image
 		s, image = self.camera.read()
