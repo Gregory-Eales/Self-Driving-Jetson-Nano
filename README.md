@@ -9,7 +9,7 @@ This project aims at using the jetson nano development board for small scale sel
   <img src="https://github.com/Gregory-Eales/Self-Driving-Jetson-Nano/blob/master/images/JetsonNano.jpg" width="250"/>
 </p>
 
-The jetson nano is a 
+The jetson nano is a small single board computer equiped with AI hardware acceleration, capable of running multiple neural networks in parrallel. 
 
 ## Project Structure
 
