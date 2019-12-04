@@ -1,7 +1,8 @@
-import jetson_controller
-import threading
+#import jetson_controller
+#import threading
+import camera
 
-jet = jetson_controller.JetsonController()
+#jet = jetson_controller.JetsonController()
 
 # main script loop
 
@@ -18,6 +19,8 @@ running = True
 # 6. joystick thread
 
 while running:
+
+	running = False
 
 	# IDLE INTERFACE MODE:
 	# 	-check interface input
@@ -46,3 +49,32 @@ while running:
 	# 	-check joystick
 
 	pass
+
+
+
+cam = camera.CameraController()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
